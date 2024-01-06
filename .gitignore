@@ -1,8 +1,16 @@
 .vscode
 .pycharm
 __pycache__
+
 .idea
 .ipynb_checkpoints
+
 models.config
+
+
+# Data 
 PlantVillage/
 .DS_Store
+
+# Lock PMG
+yarn.lock
