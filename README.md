@@ -11,6 +11,8 @@ Install potato-disease-classify with npm
     npm install
 ```
 
+## Data
+
 ## Demo
 
 Insert gif or link to demo
