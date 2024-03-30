@@ -13,6 +13,8 @@ Install potato-disease-classify with npm
 
 ## Data
 
+`https://www.kaggle.com/datasets/arjuntejaswi/plant-village`
+
 ## Demo
 
 Insert gif or link to demo
@@ -22,4 +24,4 @@ Insert gif or link to demo
 - Javascript, HTML, CSS, ReactJS...
 - FastAPI
 - Tensorflow, CNN
-- Google Cloud Platform - `Cloud Storage`
+- Google Cloud Platform - `Cloud Storage` , `Cloud Run`
