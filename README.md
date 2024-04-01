@@ -6,9 +6,19 @@ The Potato Disease Classification project aims to develop an efficient model usi
 
 Install potato-disease-classify with npm
 
+### Run Frontend
+
 ```bash
-    cd potato-disease-classify
+    cd potato-disease-classify/frontend
     npm install
+    npm run dev
+```
+
+### Run API
+
+```bash
+    cd potato-disease-classify/api
+    pip install -r requirements-txt
 ```
 
 ## Data
