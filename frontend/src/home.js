@@ -6,7 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import React from 'react';
 import Card from '@material-ui/core/Card';
+import Button from '@material-ui/core/Button';
 import CardContent from '@material-ui/core/CardContent';
+import ReplayIcon from '@material-ui/icons/ReplayOutlined';
+
 import {
   Paper,
   CardActionArea,
@@ -190,6 +193,11 @@ export const ImageUpload = () => {
     confidence = (parseFloat(data.confidence) * 100).toFixed(2);
   }
 
+  const resetPredict = () => {
+    setData(undefined);
+    setImage(false);
+  };
+
   return (
     <React.Fragment>
       <AppBar position='static' className={classes.appbar}>
@@ -287,6 +295,15 @@ export const ImageUpload = () => {
               )}
             </Card>
           </Grid>
+          {data && (
+            <Button
+              variant='contained'
+              onClick={resetPredict}
+              endIcon={<ReplayIcon />}
+            >
+              Predict Again
+            </Button>
+          )}
         </Grid>
       </Container>
     </React.Fragment>
